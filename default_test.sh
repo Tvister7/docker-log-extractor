@@ -3,7 +3,7 @@
 poetry run python src --docker-image python \
  --bash-command $'pip install pip -U && \
 pip install tqdm && \
-python -c \'
+python -uc \'
 import time
 counter = 0
 while True:
